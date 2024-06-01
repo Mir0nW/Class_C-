@@ -7,9 +7,10 @@
 #include <iostream>
 
 
+
 class Decimal //Создаём класс.
 {
- 
+   
     
     double addition{};       // Переменная для сложения.
 
@@ -96,7 +97,9 @@ public:
 
 
 int main()
+
 {
+    setlocale(LC_ALL, "Rus");
     Decimal num{};
 
     while (true)
